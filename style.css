@@ -28,3 +28,12 @@
     font-size: 1.2rem;
     font-weight: bold
 }
+
+.body-color {
+    background-color: beige;
+}
+
+
+.navbar-border {
+    border-bottom: 1px solid black;
+}
