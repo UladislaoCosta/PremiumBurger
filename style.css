@@ -37,3 +37,18 @@
 .navbar-border {
     border-bottom: 1px solid black;
 }
+
+.ContactoAshei {
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+}
+
+.ContactoP {
+    display: flex;
+    justify-content: center;
+}
