@@ -1,15 +1,29 @@
+/* VARIABLES */
+$color-principal: beige;
+
+
+.body-color {
+    background-color: $color-principal;
+}
+
+header {
 .flex-grow {
     justify-content: center;
     margin-right: 8%;
 }
+.navbar-border {
+    border-bottom: 1px solid rgb(150, 150, 150);
+}
+}
 
-
-.product-t p {
+.product-t {
+    p {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
     font-size: 2rem;
+    }
 }
 
 .names-burger {
@@ -27,15 +41,6 @@
     align-items: center;
     font-size: 1.2rem;
     font-weight: bold
-}
-
-.body-color {
-    background-color: beige;
-}
-
-
-.navbar-border {
-    border-bottom: 1px solid rgb(150, 150, 150);
 }
 
 .ContactoAshei {
