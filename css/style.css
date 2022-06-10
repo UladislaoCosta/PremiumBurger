@@ -7,7 +7,7 @@ header .flex-grow {
   margin-right: 8%; }
 
 header .navbar-border {
-  border-bottom: 1px solid #969696; }
+  border-bottom: 1px solid black; }
 
 .product-t p {
   display: flex;
