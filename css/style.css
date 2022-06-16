@@ -1,4 +1,8 @@
 /* VARIABLES */
+body {
+  position: relative;
+  padding-bottom: 10rem; }
+
 .body-color {
   background-color: beige; }
 
@@ -41,3 +45,29 @@ h4 {
 .ContactoP {
   display: flex;
   justify-content: center; }
+
+.main-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+  .main-footer .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    background-color: white;
+    width: 100%;
+    padding: 2rem;
+    list-style: none;
+    gap: 2rem;
+    margin-bottom: 0; }
+    .main-footer .footer p {
+      font-size: 1.3rem;
+      color: black;
+      margin-top: 15px; }
+    .main-footer .footer i {
+      font-size: 2.5rem;
+      color: black; }
