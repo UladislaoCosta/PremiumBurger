@@ -5,13 +5,6 @@ header .flex-grow {
 header .navbar-border {
   border-bottom: 1px solid black; }
 
-.product-t p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 3rem;
-  font-size: 2rem; }
-
 .names-burger {
   display: flex;
   justify-content: center;
@@ -25,6 +18,13 @@ header .navbar-border {
   align-items: center;
   font-size: 1.2rem;
   font-weight: bold; }
+
+.product-t p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  font-size: 2rem; }
 
 .ContactoAshei {
   display: flex;
