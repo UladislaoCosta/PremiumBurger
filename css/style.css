@@ -1,11 +1,3 @@
-/* VARIABLES */
-body {
-  position: relative;
-  padding-bottom: 10rem; }
-
-.body-color {
-  background-color: beige; }
-
 header .flex-grow {
   justify-content: center;
   margin-right: 8%; }
@@ -57,10 +49,10 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid white;
-    background-color: white;
+    border: 1px solid #d1b89d;
+    background-color: #cfbca8;
     width: 100%;
-    padding: 2rem;
+    padding: 1rem;
     list-style: none;
     gap: 2rem;
     margin-bottom: 0; }
@@ -71,3 +63,11 @@ h4 {
     .main-footer .footer i {
       font-size: 2.5rem;
       color: black; }
+
+/* VARIABLES */
+body {
+  position: relative;
+  padding-bottom: 10rem; }
+
+.body-color {
+  background-color: beige; }
