@@ -38,11 +38,13 @@ h4 {
   display: flex;
   justify-content: center; }
 
+.ContactoInfo {
+  margin-bottom: 22%; }
+
 .main-footer {
   display: flex;
   justify-content: center;
   margin-top: 3rem;
-  position: fixed;
   bottom: 0;
   width: 100%; }
   .main-footer .footer {
@@ -64,10 +66,12 @@ h4 {
       font-size: 2.5rem;
       color: black; }
 
+.faqsection p {
+  text-align: center; }
+
 /* VARIABLES */
 body {
-  position: relative;
-  padding-bottom: 10rem; }
+  position: relative; }
 
 .body-color {
   background-color: beige; }

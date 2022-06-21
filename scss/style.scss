@@ -2,6 +2,7 @@
 @import "components/productos";
 @import "components/contacto";
 @import "components/footer";
+@import "components/faqs";
 
 
 /* VARIABLES */
@@ -9,7 +10,6 @@ $color-principal: beige;
 
 body {
     position: relative;
-    padding-bottom: 10rem;
 }
 
 .body-color {
