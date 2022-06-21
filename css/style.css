@@ -1,9 +1,10 @@
-header .flex-grow {
-  justify-content: center;
-  margin-right: 8%; }
-
-header .navbar-border {
-  border-bottom: 1px solid black; }
+header {
+  height: 15%; }
+  header .flex-grow {
+    justify-content: center;
+    margin-right: 8%; }
+  header .navbar-border {
+    border-bottom: 1px solid black; }
 
 .names-burger {
   display: flex;
@@ -26,6 +27,25 @@ header .navbar-border {
   margin-top: 3rem;
   font-size: 2rem; }
 
+.grid-container {
+  margin-top: 3%;
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 2rem 1rem; }
+  .grid-container img {
+    width: 300px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover; }
+  .grid-container .grid-item:hover {
+    transform: scale(1.1);
+    transition: all 200ms ease-in-out; }
+  .grid-container p {
+    margin-top: 0;
+    margin-bottom: 0; }
+
 .ContactoAshei {
   display: flex;
   justify-content: center; }
@@ -45,14 +65,17 @@ h4 {
   display: flex;
   justify-content: center;
   margin-top: 3rem;
-  bottom: 0;
-  width: 100%; }
+  margin-bottom: 0;
+  bottom: 0%;
+  width: 100%;
+  position: relative;
+  height: 15%; }
   .main-footer .footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #d1b89d;
-    background-color: #cfbca8;
+    border: 1px solid goldenrod;
+    background-color: #ffbe00;
     width: 100%;
     padding: 1rem;
     list-style: none;
@@ -69,9 +92,40 @@ h4 {
 .faqsection p {
   text-align: center; }
 
+.NosotrosInfo p {
+  text-align: center; }
+
 /* VARIABLES */
+html {
+  block-size: 100%; }
+
+.megacontainer {
+  min-height: 62.3vh; }
+
 body {
-  position: relative; }
+  min-block-size: 100%; }
 
 .body-color {
-  background-color: beige; }
+  background-color: #181818; }
+
+.body-image {
+  background-image: url(/Multimedia/Imagenes/fondo-b.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed; }
+
+.nav-item {
+  font-family: 'Praktika Rounded';
+  font-size: 1.25rem;
+  font-weight: 300; }
+
+@media (max-width: 576px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    column-gap: 0; } }
+
+@media (max-width: 768px) {
+  .megasugcontainer {
+    grid-template-columns: 1fr;
+    column-gap: 0; } }

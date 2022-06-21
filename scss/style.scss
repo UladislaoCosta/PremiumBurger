@@ -3,15 +3,51 @@
 @import "components/contacto";
 @import "components/footer";
 @import "components/faqs";
-
+@import "components/nosotros";
 
 /* VARIABLES */
-$color-principal: beige;
+$color-principal: rgb(24, 24, 24);
+
+html {
+  block-size: 100%;
+}
+
+.megacontainer {
+min-height: 62.3vh;
+}
 
 body {
-    position: relative;
+  min-block-size: 100%;
 }
 
 .body-color {
     background-color: $color-principal;
 }
+
+.body-image {
+  background-image: url(/Multimedia/Imagenes/fondo-b.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+.nav-item {
+    font-family: 'Praktika Rounded';
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+@media (max-width: 576px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+      column-gap: 0;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .megasugcontainer {
+      grid-template-columns: 1fr;
+      column-gap: 0;
+    }
+  }

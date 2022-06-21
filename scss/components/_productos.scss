@@ -2,13 +2,13 @@
 @import "base/mixins";
 
 .product-t {
-    p {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 3rem;
-        font-size: 2rem;
-    }
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+  }
 }
 
 .names-burger {
@@ -17,4 +17,32 @@
 
 .price-burger {
   @extend %priceburger
+}
+
+.grid-container { 
+
+  margin-top: 3%;
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 2rem 1rem;
+
+  img {
+    width: 300px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+
+  .grid-item:hover {
+    transform: scale(1.1);
+    transition: all 200ms ease-in-out;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
 }
