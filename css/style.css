@@ -54,12 +54,20 @@ h4 {
   display: flex;
   justify-content: center; }
 
+.ServicioCliente {
+  font-size: 20px;
+  display: flex;
+  justify-content: center; }
+
 .ContactoP {
   display: flex;
   justify-content: center; }
 
 .ContactoInfo {
   margin-bottom: 22%; }
+
+.megacontainer p {
+  text-align: center; }
 
 .main-footer {
   display: flex;
@@ -125,7 +133,12 @@ body {
     grid-template-columns: 1fr;
     column-gap: 0; } }
 
-@media (max-width: 768px) {
-  .megasugcontainer {
+@media (max-width: 576px) {
+  .row {
     grid-template-columns: 1fr;
+    column-gap: 0; } }
+
+@media (max-width: 820px) {
+  .row {
+    grid-template-columns: 3fr;
     column-gap: 0; } }
