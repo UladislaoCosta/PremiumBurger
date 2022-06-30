@@ -121,7 +121,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  background-color: #181818; }
 
 .nav-item {
   font-family: 'Praktika Rounded';
