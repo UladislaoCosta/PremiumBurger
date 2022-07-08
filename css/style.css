@@ -77,7 +77,8 @@ h4 {
 .ServicioCliente {
   font-size: 20px;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  text-align: center; }
 
 .ContactoP {
   display: flex;
