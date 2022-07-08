@@ -27,16 +27,36 @@ header {
   margin-top: 3rem;
   font-size: 2rem; }
 
+/* 
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+*/
+.grid-item {
+  display: flex;
+  flex-direction: column; }
+
 .grid-container {
-  margin-top: 3%;
   width: 80%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
-  gap: 2rem 1rem; }
+  justify-content: center;
+  gap: 2rem 1rem;
+  grid-template-columns: 1fr; }
+  @media (min-width: 768px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 992px) {
+    .grid-container {
+      grid-template-columns: repeat(3, 1fr); } }
   .grid-container img {
     width: 300px;
+    margin: 0 auto;
     aspect-ratio: 1 / 1;
     object-fit: cover; }
   .grid-container .grid-item:hover {
