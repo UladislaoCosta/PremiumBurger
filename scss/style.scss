@@ -13,15 +13,16 @@ html {
 }
 
 .megacontainer {
-min-height: 65vh;
+  min-height: 65vh;
 }
 
 body {
   min-block-size: 100%;
+  width: 100%;
 }
 
 .body-color {
-    background-color: $color-principal;
+  background-color: $color-principal;
 }
 
 .body-image {
@@ -34,28 +35,32 @@ body {
 }
 
 .nav-item {
-    font-family: 'Praktika Rounded';
-    font-size: 1.25rem;
-    font-weight: 300;
+  font-family: 'Praktika Rounded';
+  font-size: 1.25rem;
+  font-weight: 300;
 }
 
 @media (max-width: 576px) {
-    .grid-container {
-      grid-template-columns: 1fr;
-      column-gap: 0;
-    }
+  .grid-container {
+    grid-template-columns: 1fr;
+    column-gap: 0;
   }
+}
 
-  @media (max-width: 576px) {
-    .row {
-      grid-template-columns: 1fr;
-      column-gap: 0;
-    }
-  }
+@media (max-width: 576px) {
+  .row {
+    grid-template-columns: 1fr;
+    column-gap: 0;
 
-  @media (max-width: 820px) {
-    .row {
-      grid-template-columns: 3fr;
-      column-gap: 0;
+    img {
+      width: 100%;
     }
   }
+}
+
+@media (max-width: 820px) {
+  .row {
+    grid-template-columns: 3fr;
+    column-gap: 0;
+  }
+}
